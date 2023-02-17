@@ -12,7 +12,10 @@ class AppServiceProvider extends ServiceProvider
      */
     public function register(): void
     {
-        $baseUrl = env('API_ENDPOINT');
+        $baseUrl = env('API_URL');
+        $this->app->singleton(Client::class, function($app) use ($baseUrl) {
+            return new Client(['base_uri' => $baseUrl]);
+    });
         
     }
 
