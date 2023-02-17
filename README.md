@@ -163,9 +163,10 @@ _Corra el proyecto con_
 php artisan serve
 ```
 
-_Si todo está correcto puede acceder al proyecto en la dirección http://localhost:8000_ con el Usuario admin@admin.com - Admin
+_Si todo está correcto puede acceder al proyecto en la dirección que nos da php artisan serve con el Usuario que usted mismo puede registrar
+(Se necesita Xampp para poder correr el proyecto)
 
-
+Dentro del mismo proyecto en la carpeta Aplicacion se encuentra la primera parte de la prueba
 ---
 [Mario Alberto Gonzalez Millan](https://github.com/Meatboy62)  
 Ingeniero en computacion
